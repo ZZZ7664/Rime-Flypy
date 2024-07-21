@@ -1,0 +1,8 @@
+patch:
+  keyboard/colorSchemas:
+    __include: custom_color_schemas:/keyboard/colorSchemas
+  keyboard/+:
+    style:
+      fontFace:
+        - url: "小米兰亭圆ProVF90粗体.ttf"
+

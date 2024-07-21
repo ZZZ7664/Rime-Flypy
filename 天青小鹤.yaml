@@ -1,0 +1,2143 @@
+keyboard:
+  colorSchemas:
+    - schemaName: schema
+      name: 配色方案
+      author: 佚名
+      back_color: "0xFFFFFF"
+      button_back_color: "0xFFFFFF"
+      button_pressed_back_color: "0xD0D0D0"
+      button_bubble_back_color: "0xD0D0D0"
+      button_foreground_color: "0x000000"
+      button_pressed_foreground_color: "0x000000"
+      button_swipe_foreground_color: "0x000000"
+      button_swipe_pressed_foreground_color: "0x000000"
+      corner_radius: 5
+      border_color: "0x000000"
+      text_color: "0x000000"
+      lower_edge_color: "0x000000"
+      shadow_color: "0x000000"
+      shadow_size: 0
+      hilited_candidate_back_color: "0xFFFFFF"
+      hilited_candidate_text_color: "0x000000"
+      hilited_candidate_label_color: "0x000000"
+      hilited_comment_text_color: "0x000000"
+      candidate_text_color: "0x000000"
+      comment_text_color: "0x000000"
+      label_color: "0x000000"
+      hilited_callout_back_color: "0xFFFFFF"
+      hilited_callout_foreground_color: "0x000000"
+      action_callout_back_color: "0xD0D0D0"
+keyStyle:
+  a1: &a5
+    name: a1
+    buttonBackgroundColor: "0xFFFFFF"
+    pressedButtonBackgroundColor: "0xD1D37F"
+    buttonForegroundColor: "0x333333"
+    pressedButtonForegroundColor: "0xFFFFFF"
+    swipeForegroundColor: "0x5C5C5C"
+    pressedSwipeForegroundColor: "0xFFFFFF"
+    buttonBubbleBackgroundColor: "0xD0D0D0"
+    actionCalloutBackgroundColor: "0xD0D0D0"
+    actionCalloutSelectedBackgroundColor: "0xFFFFFF"
+    actionCalloutSelectedForegroundColor: "0x000000"
+    cornerRadius: 7
+    borderSize: 0
+    borderColor: "0x000000"
+    lowerEdgeColor: "0x1E000000"
+    shadowColor: "0x01474747"
+    shadowSize: 0
+    fontSize: 15
+    swipeFontSize: 7
+  a1h: &a6
+    name: a1h
+    buttonBackgroundColor: "0x5E5E5E"
+    pressedButtonBackgroundColor: "0xD1D37F"
+    buttonForegroundColor: "0xFFFFFF"
+    pressedButtonForegroundColor: "0xFFFFFF"
+    swipeForegroundColor: "0xEBEBEB"
+    pressedSwipeForegroundColor: "0xEBEBEB"
+    buttonBubbleBackgroundColor: "0xD0D0D0"
+    actionCalloutBackgroundColor: "0xD0D0D0"
+    actionCalloutSelectedBackgroundColor: "0xFFFFFF"
+    actionCalloutSelectedForegroundColor: "0x000000"
+    cornerRadius: 7
+    borderSize: 0
+    borderColor: "0x000000"
+    lowerEdgeColor: "0x1E000000"
+    shadowColor: "0x01474747"
+    shadowSize: 0
+    fontSize: 15
+    swipeFontSize: 7
+  a2: &a7
+    name: a2
+    buttonBackgroundColor: "0xFFFFFF"
+    pressedButtonBackgroundColor: "0xD1D37F"
+    buttonForegroundColor: "0xD3BD3B"
+    pressedButtonForegroundColor: "0xFFFFFF"
+    swipeForegroundColor: "0xD1D37F"
+    pressedSwipeForegroundColor: "0xFFFFFF"
+    buttonBubbleBackgroundColor: "0xD0D0D0"
+    actionCalloutBackgroundColor: "0xD0D0D0"
+    actionCalloutSelectedBackgroundColor: "0xFFFFFF"
+    actionCalloutSelectedForegroundColor: "0x000000"
+    cornerRadius: 7
+    borderSize: 0
+    borderColor: "0x000000"
+    lowerEdgeColor: "0x1E000000"
+    shadowColor: "0x01474747"
+    shadowSize: 0
+    fontSize: 18
+    swipeFontSize: 10
+  a2h: &a8
+    name: a2h
+    buttonBackgroundColor: "0x5E5E5E"
+    pressedButtonBackgroundColor: "0xD1D37F"
+    buttonForegroundColor: "0xD3BD3B"
+    pressedButtonForegroundColor: "0xFFFFFF"
+    swipeForegroundColor: "0xD1D37F"
+    pressedSwipeForegroundColor: "0xFFFFFF"
+    buttonBubbleBackgroundColor: "0xD0D0D0"
+    actionCalloutBackgroundColor: "0xD0D0D0"
+    actionCalloutSelectedBackgroundColor: "0xFFFFFF"
+    actionCalloutSelectedForegroundColor: "0x000000"
+    cornerRadius: 7
+    borderSize: 0
+    borderColor: "0x000000"
+    lowerEdgeColor: "0x01000000"
+    shadowColor: "0x01474747"
+    shadowSize: 0
+    fontSize: 18
+    swipeFontSize: 10
+  a3: &a3
+    name: a3
+    buttonBackgroundColor: "0xCFD77D"
+    pressedButtonBackgroundColor: "0xFFFFFF"
+    buttonForegroundColor: "0xFFFFFF"
+    pressedButtonForegroundColor: "0xB4A942"
+    swipeForegroundColor: "0xFFFFFF"
+    pressedSwipeForegroundColor: "0xB4A942"
+    buttonBubbleBackgroundColor: "0xD0D0D0"
+    actionCalloutBackgroundColor: "0xD0D0D0"
+    actionCalloutSelectedBackgroundColor: "0xFFFFFF"
+    actionCalloutSelectedForegroundColor: "0x000000"
+    cornerRadius: 7
+    borderSize: 0
+    borderColor: "0x000000"
+    lowerEdgeColor: "0x1E000000"
+    shadowColor: "0x01474747"
+    shadowSize: 0
+    fontSize: 18
+    swipeFontSize: 10
+  a3h: &a4
+    name: a3h
+    buttonBackgroundColor: "0xB4A942"
+    pressedButtonBackgroundColor: "0xCFD77D"
+    buttonForegroundColor: "0xFFFFFF"
+    pressedButtonForegroundColor: "0xFFFFFF"
+    swipeForegroundColor: "0xEBEBEB"
+    pressedSwipeForegroundColor: "0xEBEBEB"
+    buttonBubbleBackgroundColor: "0xD0D0D0"
+    actionCalloutBackgroundColor: "0xD0D0D0"
+    actionCalloutSelectedBackgroundColor: "0xFFFFFF"
+    actionCalloutSelectedForegroundColor: "0x000000"
+    cornerRadius: 7
+    borderSize: 0
+    borderColor: "0x000000"
+    lowerEdgeColor: "0x01000000"
+    shadowColor: "0x474747"
+    shadowSize: 0
+    fontSize: 18
+    swipeFontSize: 10
+  a4: &a1
+    name: a4
+    buttonBackgroundColor: "0xBFF7F8"
+    pressedButtonBackgroundColor: "0xFFFFFF"
+    buttonForegroundColor: "0xCFD77D"
+    pressedButtonForegroundColor: "0xCFD77D"
+    swipeForegroundColor: "0xCFD77D"
+    pressedSwipeForegroundColor: "0xCFD77D"
+    buttonBubbleBackgroundColor: "0xD0D0D0"
+    actionCalloutBackgroundColor: "0xD0D0D0"
+    actionCalloutSelectedBackgroundColor: "0xFFFFFF"
+    actionCalloutSelectedForegroundColor: "0x000000"
+    cornerRadius: 7
+    borderSize: 0
+    borderColor: "0x000000"
+    lowerEdgeColor: "0x1E000000"
+    shadowColor: "0x01000000"
+    shadowSize: 0
+    fontSize: 17
+    swipeFontSize: 9
+  a4h: &a2
+    name: a4h
+    buttonBackgroundColor: "0xBFF7F8"
+    pressedButtonBackgroundColor: "0xD1D37F"
+    buttonForegroundColor: "0xCFD77D"
+    pressedButtonForegroundColor: "0xFFFFFF"
+    swipeForegroundColor: "0xCFD77D"
+    pressedSwipeForegroundColor: "0xFFFFFF"
+    buttonBubbleBackgroundColor: "0xD0D0D0"
+    actionCalloutBackgroundColor: "0xD0D0D0"
+    actionCalloutSelectedBackgroundColor: "0xFFFFFF"
+    actionCalloutSelectedForegroundColor: "0x000000"
+    cornerRadius: 7
+    borderSize: 0
+    borderColor: "0x000000"
+    lowerEdgeColor: "0x01000000"
+    shadowColor: "0x01000000"
+    shadowSize: 0
+    fontSize: 17
+    swipeFontSize: 9
+  no: &a9
+    name: no
+    buttonBackgroundColor: "0x01FFFFFF"
+    pressedButtonBackgroundColor: "0x01D0D0D0"
+    buttonForegroundColor: "0x01000000"
+    pressedButtonForegroundColor: "0x01000000"
+    swipeForegroundColor: "0x01000000"
+    pressedSwipeForegroundColor: "0x01000000"
+    buttonBubbleBackgroundColor: "0xD0D0D0"
+    actionCalloutBackgroundColor: "0xD0D0D0"
+    actionCalloutSelectedBackgroundColor: "0xFFFFFF"
+    actionCalloutSelectedForegroundColor: "0x000000"
+    cornerRadius: 0
+    borderSize: 0
+    borderColor: "0x01000000"
+    lowerEdgeColor: "0x01000000"
+    shadowColor: "0x01000000"
+    shadowSize: 0
+keyboards:
+  - name: 天青中小鹤
+    isPrimary: true
+    rows:
+      - keys:
+          - action:
+              character:
+                char: "1"
+            width: available
+            label: "1"
+            swipe:
+              - action:
+                  shortcutCommand: "#行首"
+                label: 行首
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+          - action:
+              character:
+                char: "2"
+            width: available
+            label: "2"
+            swipe:
+              - action:
+                  shortcutCommand: "#中英切换"
+                label: 中英
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: "3"
+            width: available
+            label: "3"
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+          - action:
+              character:
+                char: "4"
+            width: available
+            label: "4"
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: "5"
+            width: available
+            label: "5"
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+          - action:
+              character:
+                char: "6"
+            width: available
+            label: "6"
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: "7"
+            width: available
+            label: "7"
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+          - action:
+              character:
+                char: "8"
+            width: available
+            label: "8"
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: "9"
+            width: available
+            label: "9"
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+          - action:
+              character:
+                char: "0"
+            width: available
+            label: "0"
+            swipe:
+              - action:
+                  shortcutCommand: "#行尾"
+                label: 行尾
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+      - keys:
+          - action:
+              character:
+                char: q
+            width: available
+            label: Q
+            swipe:
+              - action:
+                  character:
+                    char: ：“
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: w
+            width: available
+            label: W
+            swipe:
+              - action:
+                  character:
+                    char: ？
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: e
+            width: available
+            label: E
+            swipe:
+              - action:
+                  character:
+                    char: （
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: r
+            width: available
+            label: R
+            swipe:
+              - action:
+                  character:
+                    char: ）
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: t
+            width: available
+            label: T
+            swipe:
+              - action:
+                  character:
+                    char: "@"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: y
+            width: available
+            label: Y
+            swipe:
+              - action:
+                  character:
+                    char: ·
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: u
+            width: available
+            label: U
+            swipe:
+              - action:
+                  character:
+                    char: +
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: i
+            width: available
+            label: I
+            swipe:
+              - action:
+                  character:
+                    char: "-"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: o
+            width: available
+            label: O
+            swipe:
+              - action:
+                  character:
+                    char: "["
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: p
+            width: available
+            label: P
+            swipe:
+              - action:
+                  character:
+                    char: "]"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+        rowHeight: 52
+      - keys:
+          - action:
+              character:
+                char: a
+            width: available
+            label: A
+            swipe:
+              - action:
+                  character:
+                    char: ！
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: s
+            width: available
+            label: S
+            swipe:
+              - action:
+                  character:
+                    char: ……
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: d
+            width: available
+            label: D
+            swipe:
+              - action:
+                  character:
+                    char: 、
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: f
+            width: available
+            label: F
+            swipe:
+              - action:
+                  character:
+                    char: "&"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "~"
+                display: false
+                processByRIME: true
+                direction: down
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: g
+            width: available
+            label: G
+            swipe:
+              - action:
+                  character:
+                    char: 《
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: h
+            width: available
+            label: H
+            swipe:
+              - action:
+                  character:
+                    char: 》
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: j
+            width: available
+            label: J
+            swipe:
+              - action:
+                  character:
+                    char: "#"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+          - action:
+              character:
+                char: k
+            width: available
+            label: K
+            swipe:
+              - action:
+                  symbol:
+                    char: ￥
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: l
+            width: available
+            label: L
+            swipe:
+              - action:
+                  character:
+                    char: ‘
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: ;
+            width: available
+            label: 分
+            swipe:
+              - action:
+                  shortcutCommand:
+                    sendKeys:
+                      keys: "`"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+        rowHeight: 52
+      - keys:
+          - action: shift
+            width:
+              portrait: available
+              landscape:
+                percentage: 0.1
+            swipe:
+              - action: tab
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: z
+            width: available
+            label: Z
+            swipe:
+              - action:
+                  character:
+                    char: “
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ‘
+                display: false
+                processByRIME: true
+                direction: down
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: x
+            width: available
+            label: X
+            swipe:
+              - action:
+                  symbol:
+                    char: /
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: c
+            width: available
+            label: C
+            swipe:
+              - action:
+                  character:
+                    char: ”
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ’
+                display: false
+                processByRIME: true
+                direction: down
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: v
+            width: available
+            label: V
+            swipe:
+              - action:
+                  character:
+                    char: ——
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: b
+            width: available
+            label: B
+            swipe:
+              - action:
+                  character:
+                    char: "%"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: n
+            width: available
+            label: N
+            swipe:
+              - action:
+                  character:
+                    char: "|"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: m
+            width: available
+            label: M
+            swipe:
+              - action:
+                  symbol:
+                    char: _
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action: backspace
+            width:
+              percentage: 0.15
+            label: Del
+            swipe:
+              - action:
+                  shortcutCommand: "#重输"
+                display: false
+                processByRIME: true
+                direction: left
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+        rowHeight: 52
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 天青中数
+            width: available
+            label: "123"
+            swipe:
+              - action:
+                  keyboardType: classifySymbolic
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  keyboardType: emojis
+                display: true
+                processByRIME: true
+                direction: right
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: ","
+            width: available
+            label: "   ，"
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action: space
+            width:
+              percentage: 0.4
+            label: " "
+            swipe:
+              - action:
+                  keyboardType:
+                    custom:
+                      named: 天青英
+                label: 小鹤　　　　　　　　　　天青
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a2
+            darkModeStyleName: a2h
+          - action:
+              character:
+                char: .
+            width:
+              portrait: available
+              landscape:
+                percentage: 0.15
+            label: " 。"
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action: enter
+            width:
+              portrait: available
+              landscape:
+                percentage: 0.15
+            label: ↵
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+        rowHeight: 52
+    buttonInsets:
+      left: 1.5
+      bottom: 2
+      top: 2
+      right: 1.5
+    keyStyle:
+      a4: *a1
+      a4h: *a2
+      a3: *a3
+      a3h: *a4
+      a1: *a5
+      a1h: *a6
+      a2: *a7
+      a2h: *a8
+  - name: 天青中
+    isPrimary: true
+    rows:
+      - keys:
+          - action:
+              character:
+                char: q
+            width: available
+            label: Q
+            swipe:
+              - action:
+                  character:
+                    char: "1"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: w
+            width: available
+            label: W
+            swipe:
+              - action:
+                  character:
+                    char: "2"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: e
+            width: available
+            label: E
+            swipe:
+              - action:
+                  character:
+                    char: "3"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: r
+            width: available
+            label: R
+            swipe:
+              - action:
+                  character:
+                    char: "4"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: t
+            width: available
+            label: T
+            swipe:
+              - action:
+                  character:
+                    char: "5"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: y
+            width: available
+            label: Y
+            swipe:
+              - action:
+                  character:
+                    char: "6"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: u
+            width: available
+            label: U
+            swipe:
+              - action:
+                  character:
+                    char: "7"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: i
+            width: available
+            label: I
+            swipe:
+              - action:
+                  character:
+                    char: "8"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: o
+            width: available
+            label: O
+            swipe:
+              - action:
+                  character:
+                    char: "9"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: p
+            width: available
+            label: P
+            swipe:
+              - action:
+                  character:
+                    char: "0"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+        rowHeight: 52
+      - keys:
+          - action:
+              character:
+                char: a
+            width:
+              percentage: 0.05
+            label: A
+            lightModeStyleName: no
+            darkModeStyleName: no
+          - action:
+              character:
+                char: a
+            width: available
+            label: A
+            swipe:
+              - action:
+                  character:
+                    char: "!"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: s
+            width: available
+            label: S
+            swipe:
+              - action:
+                  character:
+                    char: "@"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: d
+            width: available
+            label: D
+            swipe:
+              - action:
+                  character:
+                    char: "#"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: f
+            width: available
+            label: F
+            swipe:
+              - action:
+                  character:
+                    char: "%"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: g
+            width: available
+            label: G
+            swipe:
+              - action:
+                  character:
+                    char: "*"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  shortcutCommand: "#行首"
+                display: true
+                processByRIME: true
+                direction: left
+              - action:
+                  shortcutCommand: "#行尾"
+                display: true
+                processByRIME: true
+                direction: right
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: h
+            width: available
+            label: H
+            swipe:
+              - action:
+                  character:
+                    char: (
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: j
+            width: available
+            label: J
+            swipe:
+              - action:
+                  character:
+                    char: )
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: k
+            width: available
+            label: K
+            swipe:
+              - action:
+                  symbol:
+                    char: “
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: l
+            width: available
+            label: L
+            swipe:
+              - action:
+                  character:
+                    char: ”
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: l
+            width:
+              percentage: 0.05
+            lightModeStyleName: no
+            darkModeStyleName: no
+        rowHeight: 52
+      - keys:
+          - action: shift
+            width:
+              percentage: 0.1
+            swipe:
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: z
+            width: available
+            label: Z
+            swipe:
+              - action:
+                  character:
+                    char: "~"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: x
+            width: available
+            label: X
+            swipe:
+              - action:
+                  character:
+                    char: /
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: c
+            width: available
+            label: C
+            swipe:
+              - action:
+                  character:
+                    char: "-"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: v
+            width: available
+            label: V
+            swipe:
+              - action:
+                  character:
+                    char: _
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: b
+            width: available
+            label: B
+            swipe:
+              - action:
+                  character:
+                    char: ":"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: n
+            width: available
+            label: N
+            swipe:
+              - action:
+                  character:
+                    char: ;
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: m
+            width: available
+            label: M
+            swipe:
+              - action:
+                  character:
+                    char: "?"
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action: backspace
+            width:
+              percentage: 0.15
+            label: Del
+            swipe:
+              - action:
+                  shortcutCommand: "#重输"
+                display: false
+                processByRIME: true
+                direction: left
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+        rowHeight: 52
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 天青中数
+            width: available
+            label: "123"
+            swipe:
+              - action:
+                  keyboardType: classifySymbolic
+                display: false
+                processByRIME: true
+                direction: up
+              - action:
+                  keyboardType: emojis
+                display: true
+                processByRIME: true
+                direction: right
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: ","
+            width: available
+            label: "   ，"
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action: space
+            width:
+              percentage: 0.4
+            label: " "
+            swipe:
+              - action:
+                  keyboardType:
+                    custom:
+                      named: 天青英
+                label: 　　　　　　　　　　　　　　天青
+                display: true
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a2
+            darkModeStyleName: a2h
+          - action:
+              character:
+                char: .
+            width:
+              portrait: available
+              landscape:
+                percentage: 0.15
+            label: " 。"
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action: enter
+            width:
+              portrait: available
+              landscape:
+                percentage: 0.15
+            label: ↵
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                display: false
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+        rowHeight: 52
+    buttonInsets:
+      left: 1.5
+      bottom: 2
+      top: 2
+      right: 1.5
+    keyStyle:
+      a1: *a5
+      a1h: *a6
+      no: *a9
+      a3: *a3
+      a3h: *a4
+      a4: *a1
+      a4h: *a2
+      a2: *a7
+      a2h: *a8
+  - name: 天青中数
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: +
+            width:
+              percentage: 0.1
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "1"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "2"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "3"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: =
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+        rowHeight: 52
+      - keys:
+          - action:
+              character:
+                char: "*"
+            width:
+              percentage: 0.1
+            label: ×
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: /
+            width:
+              percentage: 0.1
+            label: ÷
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "4"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "5"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "6"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: ":"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+        rowHeight: 52
+      - keys:
+          - action:
+              character:
+                char: (
+            width:
+              percentage: 0.1
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: )
+            width:
+              percentage: 0.1
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "7"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "8"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "9"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action: backspace
+            width: available
+            label: Del
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+        rowHeight: 52
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 天青中小鹤
+            width: available
+            label: 中
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: .
+            width: available
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: "0"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action: space
+            width: available
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action: enter
+            width: available
+            label: ↵
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+        rowHeight: 52
+    buttonInsets:
+      left: 1.5
+      bottom: 2
+      top: 2
+      right: 1.5
+    keyStyle:
+      a1: *a5
+      a1h: *a6
+      a4: *a1
+      a4h: *a2
+      a3: *a3
+      a3h: *a4
+  - name: 天青英
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: q
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "1"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: w
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "2"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: e
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "3"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: r
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "4"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: t
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "5"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: y
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "6"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: u
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "7"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: i
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "8"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: o
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "9"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: p
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: "0"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+        rowHeight: 52
+      - keys:
+          - action:
+              character:
+                char: a
+            width:
+              percentage: 0.05
+            lightModeStyleName: no
+            darkModeStyleName: no
+          - action:
+              character:
+                char: a
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: "!"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: s
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: "@"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: d
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: "#"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: f
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: "%"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: g
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: "*"
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  shortcutCommand: "#行首"
+                display: true
+                processByRIME: true
+                direction: left
+              - action:
+                  shortcutCommand: "#行尾"
+                display: true
+                processByRIME: true
+                direction: right
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: h
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: (
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: j
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: )
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: k
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: '"'
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: l
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: "'"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: l
+            width:
+              percentage: 0.05
+            lightModeStyleName: no
+            darkModeStyleName: no
+        rowHeight: 52
+      - keys:
+          - action: shift
+            width:
+              percentage: 0.1
+            swipe:
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: z
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: "~"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: x
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: /
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: c
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: "-"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: v
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: _
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: b
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: ":"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: n
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: ;
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: m
+            processByRIME: false
+            width: available
+            swipe:
+              - action:
+                  symbol:
+                    char: "?"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action: backspace
+            width:
+              percentage: 0.15
+            label: Del
+            swipe:
+              - action:
+                  shortcutCommand: "#重输"
+                display: false
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+        rowHeight: 52
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 天青英数
+            width: available
+            label: "123"
+            swipe:
+              - action:
+                  keyboardType: classifySymbolic
+                display: false
+                processByRIME: true
+                direction: up
+              - action:
+                  keyboardType: emojis
+                display: false
+                processByRIME: true
+                direction: right
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: ","
+            processByRIME: false
+            width: available
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action: space
+            width:
+              percentage: 0.4
+            label: " "
+            swipe:
+              - action:
+                  keyboardType:
+                    custom:
+                      named: 天青中小鹤
+                label: 　　　　　　　　　　　　　　天青
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: a2
+            darkModeStyleName: a2h
+          - action:
+              character:
+                char: .
+            processByRIME: false
+            width: available
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action: enter
+            width: available
+            label: ↵
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                display: false
+                processByRIME: true
+                direction: up
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+        rowHeight: 52
+    buttonInsets:
+      left: 1.5
+      bottom: 2
+      top: 2
+      right: 1.5
+    keyStyle:
+      a1: *a5
+      a1h: *a6
+      no: *a9
+      a3: *a3
+      a3h: *a4
+      a4: *a1
+      a4h: *a2
+      a2: *a7
+      a2h: *a8
+  - name: 天青英数
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: +
+            width:
+              percentage: 0.1
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "1"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "2"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "3"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: =
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+        rowHeight: 52
+      - keys:
+          - action:
+              character:
+                char: "*"
+            width:
+              percentage: 0.1
+            label: ×
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: /
+            width:
+              percentage: 0.1
+            label: ÷
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "4"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "5"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "6"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: ":"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+        rowHeight: 52
+      - keys:
+          - action:
+              character:
+                char: (
+            width:
+              percentage: 0.1
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: )
+            width:
+              percentage: 0.1
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "7"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "8"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action:
+              character:
+                char: "9"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action: backspace
+            width: available
+            label: Del
+            lightModeStyleName: a4
+            darkModeStyleName: a4h
+        rowHeight: 52
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 天青英
+            width: available
+            label: En
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: .
+            width: available
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action:
+              character:
+                char: "0"
+            width: available
+            lightModeStyleName: a1
+            darkModeStyleName: a1h
+          - action: space
+            width: available
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+          - action: enter
+            width: available
+            label: ↵
+            lightModeStyleName: a3
+            darkModeStyleName: a3h
+        rowHeight: 52
+    buttonInsets:
+      left: 1.5
+      bottom: 2
+      top: 2
+      right: 1.5
+    keyStyle:
+      a1: *a5
+      a1h: *a6
+      a4: *a1
+      a4h: *a2
+      a3: *a3
+      a3h: *a4

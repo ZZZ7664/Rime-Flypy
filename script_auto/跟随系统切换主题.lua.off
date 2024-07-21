@@ -1,0 +1,29 @@
+--自动脚本：
+--跟随系统主题自动切换深浅色主题（不是配色）
+--author：ahao
+
+--使用方法：
+--1. 该脚本需要配合自动化脚本启动起使用
+--2. 在18、19行分别填写你的深色与浅色主题名称
+--3. 将该脚本放到rime/script_aotu目录下刷新即可
+
+require "import"
+import "android.content.*"
+import "com.osfans.trime.*"
+import "android.view.KeyEvent"
+
+local function RefreshKeyboard()
+    local uiMode = service.getResources().getConfiguration().uiMode
+    local themeId = Config.get().getTheme()
+    local lightId = "iOS_light.trime" --填写浅色主题名
+    local darkId = "iOS.trime" --填写深色主题名
+    
+    if uiMode == 33 and themeId == lightId then
+      Config.get().setTheme(darkId)
+      Trime.getService().initKeyboard()
+    elseif uiMode == 17 and themeId == darkId then
+      Config.get().setTheme(lightId)
+      Trime.getService().initKeyboard()
+    end
+end
+return {刷新键盘=RefreshKeyboard}

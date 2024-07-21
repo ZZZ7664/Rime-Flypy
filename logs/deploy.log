@@ -1,0 +1,699 @@
+--------- beginning of main
+[ 07-12 16:16:27.261 29858:29858 D/VRI[Pref] ]
+vri.reportNextDraw android.view.ViewRootImpl.performTraversals:4293 android.view.ViewRootImpl.doTraversal:2933 android.view.ViewRootImpl$TraversalRunnable.run:10224 android.view.Choreographer$CallbackRecord.run:1634 android.view.Choreographer$CallbackRecord.run:1643 
+
+[ 07-12 16:16:27.262 29858:29858 D/VRI[Pref] ]
+vri.Setup new sync=wmsSync-VRI[Pref]#10
+
+[ 07-12 16:16:27.276 29858:29885 E/OpenGLRenderer ]
+Unable to match the desired swap behavior.
+
+[ 07-12 16:16:27.292 29858:29885 D/OpenGLRenderer ]
+makeCurrent grContext:0xb400007a0cba4240 reset mTextureAvailable
+
+[ 07-12 16:16:27.326 29858:29858 D/VRI[Pref] ]
+vri.reportDrawFinished
+
+[ 07-12 16:16:27.473 29858:29906 I/Rime-JNI ]
+finalize...
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+java.lang.RuntimeException: full_check true
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at com.osfans.trime.Rime.get(Unknown Source:24)
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at com.osfans.trime.Function.deploy(Unknown Source:4)
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at com.osfans.trime.Pref$TrimePreferenceFragment$9.a(Unknown Source:14)
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at com.osfans.trime.Pref$TrimePreferenceFragment$9.doInBackground(Unknown Source:2)
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+
+[ 07-12 16:16:27.474 29858:29906 W/System.err ]
+	at java.lang.Thread.run(Thread.java:1012)
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/core_module.cc:20 registering core components.
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: config_builder
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: config
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: schema
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: user_config
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/dict_module.cc:25 registering components from module 'dict'.
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: tabledb
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: stabledb
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: plain_userdb
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: userdb
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: corrector
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: dictionary
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_dictionary
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: user_dictionary
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: userdb_recovery_task
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/gears_module.cc:43 registering components from module 'gears'.
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: ascii_composer
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: chord_composer
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: express_editor
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: fluid_editor
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: fluency_editor
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: key_binder
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: navigator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: punctuator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: recognizer
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: selector
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: speller
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: shape_processor
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: abc_segmentor
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: affix_segmentor
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: ascii_segmentor
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: matcher
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: punct_segmentor
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: fallback_segmentor
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: echo_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: punct_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: table_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: script_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: r10n_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: schema_list_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: switch_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: codepoint_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: history_translator
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: simplifier
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: uniquifier
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: charset_filter
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: cjk_minifier
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_filter
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: single_char_filter
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/registry.cc:14 registering component: shape_formatter
+
+
+[ 07-12 16:16:27.567 29858:29906 I/native   ]
+I/modules.cc:65 registering components from module 'lua'.
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: lua_translator
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: lua_filter
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: lua_segmentor
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: lua_processor
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/grammar_module.cc:14 registering components from module 'grammar'.
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: grammar
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/levers_module.cc:23 registering components from module 'levers'.
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: detect_modifications
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: installation_update
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: workspace_update
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: schema_update
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: config_file_update
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: prebuild_all_schemas
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: user_dict_upgrade
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: cleanup_trash
+
+
+[ 07-12 16:16:27.573 29858:29906 I/native   ]
+I/registry.cc:14 registering component: user_dict_sync
+
+
+[ 07-12 16:16:27.574 29858:29906 I/native   ]
+I/registry.cc:14 registering component: backup_config_files
+
+
+[ 07-12 16:16:27.574 29858:29906 I/native   ]
+I/registry.cc:14 registering component: clean_old_log_files
+
+
+[ 07-12 16:16:27.574 29858:29906 I/native   ]
+I/deployment_tasks.cc:80 updating rime installation info.
+
+
+[ 07-12 16:16:27.574 29858:29906 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/installation.yaml'.
+
+
+[ 07-12 16:16:27.574 29858:29906 I/native   ]
+I/deployment_tasks.cc:98 installation info exists. installation id: 91553e35-6f84-4525-842c-226034c620d4
+
+
+[ 07-12 16:16:27.574 29858:29906 I/native   ]
+I/deployment_tasks.cc:106 sync dir: /sdcard/android/rime/sync
+
+
+[ 07-12 16:16:27.574 29858:29906 I/native   ]
+I/deployment_tasks.cc:108 previous distribution: hamster
+
+
+[ 07-12 16:16:27.575 29858:29906 I/native   ]
+I/deployment_tasks.cc:111 previous distribution version: 1
+
+
+[ 07-12 16:16:27.575 29858:29906 I/native   ]
+I/deployment_tasks.cc:114 previous Rime version: 1.5.3
+
+
+[ 07-12 16:16:27.575 29858:29906 I/native   ]
+I/deployment_tasks.cc:123 creating installation info.
+
+
+[ 07-12 16:16:27.575 29858:29906 I/native   ]
+I/config_data.cc:199 write: update_time
+
+
+[ 07-12 16:16:27.575 29858:29906 I/native   ]
+I/config_data.cc:199 write: rime_version
+
+
+[ 07-12 16:16:27.575 29858:29906 I/native   ]
+I/deployment_tasks.cc:155 Rime version: 1.5.3
+
+
+[ 07-12 16:16:27.575 29858:29906 I/native   ]
+I/config_data.cc:85 saving config file '/sdcard/android/rime/installation.yaml'.
+
+
+[ 07-12 16:16:27.575 29858:29906 I/native   ]
+I/deployer.cc:114 starting work thread for 3 tasks.
+
+
+[ 07-12 16:16:27.576 29858:30102 I/native   ]
+I/deployer.cc:83 running deployment tasks:
+
+
+[ 07-12 16:16:27.576 29858:30102 I/native   ]
+I/deployment_tasks.cc:160 updating workspace.
+
+
+[ 07-12 16:16:27.577 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/default.yaml'.
+
+
+[ 07-12 16:16:27.579 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/default.yaml'.
+
+
+[ 07-12 16:16:27.581 29858:30102 I/native   ]
+I/deployment_tasks.cc:183 updating schemas.
+
+
+[ 07-12 16:16:27.581 29858:30102 I/native   ]
+I/deployment_tasks.cc:193 schema: clover
+
+
+[ 07-12 16:16:27.581 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/clover.schema.yaml'.
+
+
+[ 07-12 16:16:27.582 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/clover.schema.yaml'.
+
+
+[ 07-12 16:16:27.595 29858:30102 I/native   ]
+I/deployment_tasks.cc:421 source file changed: /sdcard/android/rime/clover.key_bindings.yaml
+
+
+[ 07-12 16:16:27.595 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/clover.schema.yaml'.
+
+
+[ 07-12 16:16:27.597 29858:30102 I/native   ]
+I/auto_patch_config_plugin.cc:28 auto-patch clover.schema:/__patch: clover.custom:/patch?
+
+
+[ 07-12 16:16:27.597 29858:30102 W/native   ]
+W/config_data.cc:62 nonexistent config file '/sdcard/android/rime/key_bindings.yaml'.
+
+
+[ 07-12 16:16:27.597 29858:30102 I/native   ]
+I/auto_patch_config_plugin.cc:28 auto-patch key_bindings:/__patch: key_bindings.custom:/patch?
+
+
+[ 07-12 16:16:27.597 29858:30102 E/native   ]
+E/config_compiler.cc:428 resource could not be loaded: key_bindings
+
+
+[ 07-12 16:16:27.597 29858:30102 E/native   ]
+E/config_compiler.cc:536 unresolved dependency: Patch(key_bindings:/emacs_editing)
+
+
+[ 07-12 16:16:27.597 29858:30102 E/native   ]
+E/config_compiler.cc:536 unresolved dependency: PendingChild(clover.schema:/key_binder/bindings)
+
+
+[ 07-12 16:16:27.597 29858:30102 E/native   ]
+E/config_compiler.cc:536 unresolved dependency: PendingChild(clover.schema:/key_binder)
+
+
+[ 07-12 16:16:27.597 29858:30102 E/native   ]
+E/config_component.cc:250 error building config: clover.schema
+
+
+[ 07-12 16:16:27.598 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/clover.schema.yaml'.
+
+
+[ 07-12 16:16:27.607 29858:30102 I/native   ]
+I/deployment_tasks.cc:358 preparing dictionary 'clover'.
+
+
+[ 07-12 16:16:27.607 29858:30102 I/native   ]
+I/dict_compiler.cc:41 compiling dictionary for /sdcard/android/rime/build/clover.schema.yaml
+
+
+[ 07-12 16:16:27.608 29858:30102 I/native   ]
+I/dict_compiler.cc:56 dict name: clover
+
+
+[ 07-12 16:16:27.608 29858:30102 I/native   ]
+I/dict_compiler.cc:57 dict version: 1
+
+
+[ 07-12 16:16:27.842 29858:30102 I/native   ]
+I/table.cc:299 loading table file: /sdcard/android/rime/build/clover.table.bin
+
+
+[ 07-12 16:16:27.842 29858:30102 I/native   ]
+I/prism.cc:77 loading prism file: /sdcard/android/rime/build/clover.prism.bin
+
+
+[ 07-12 16:16:27.843 29858:30102 I/native   ]
+I/prism.cc:107 found double array image of size 2304.
+
+
+[ 07-12 16:16:27.843 29858:30102 I/native   ]
+I/dict_compiler.cc:109 /sdcard/android/rime/clover.dict.yaml[15 file(s)] (1540440934)
+
+
+[ 07-12 16:16:27.843 29858:30102 I/native   ]
+I/dict_compiler.cc:111 /sdcard/android/rime/build/clover.schema.yaml (2295251810)
+
+
+[ 07-12 16:16:27.843 29858:30102 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /sdcard/android/rime/build/clover.reverse.bin
+
+
+[ 07-12 16:16:27.844 29858:30102 I/native   ]
+I/deployment_tasks.cc:376 dictionary 'clover' is ready.
+
+
+[ 07-12 16:16:27.845 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/clover.schema.yaml'.
+
+
+[ 07-12 16:16:27.855 29858:30102 I/native   ]
+I/deployment_tasks.cc:193 schema: emoji
+
+
+[ 07-12 16:16:27.856 29858:30102 W/native   ]
+W/deployment_tasks.cc:204 missing input schema; skipped unsatisfied dependency: emoji
+
+
+[ 07-12 16:16:27.856 29858:30102 I/native   ]
+I/deployment_tasks.cc:193 schema: flypy
+
+
+[ 07-12 16:16:27.856 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/flypy.schema.yaml'.
+
+
+[ 07-12 16:16:27.858 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/flypy.schema.yaml'.
+
+
+[ 07-12 16:16:27.860 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/flypy.schema.yaml'.
+
+
+[ 07-12 16:16:27.864 29858:30102 I/native   ]
+I/deployment_tasks.cc:358 preparing dictionary 'flypy'.
+
+
+[ 07-12 16:16:27.864 29858:30102 I/native   ]
+I/dict_compiler.cc:41 compiling dictionary for /sdcard/android/rime/build/flypy.schema.yaml
+
+
+[ 07-12 16:16:27.864 29858:30102 E/native   ]
+E/dict_compiler.cc:46 source file '/sdcard/android/rime/flypy.dict.yaml' does not exist.
+
+
+[ 07-12 16:16:27.864 29858:30102 I/native   ]
+I/table.cc:299 loading table file: /sdcard/android/rime/build/flypy.table.bin
+
+
+[ 07-12 16:16:27.865 29858:30102 I/native   ]
+I/dict_compiler.cc:90 reuse existing table: /sdcard/android/rime/build/flypy.table.bin
+
+
+[ 07-12 16:16:27.865 29858:30102 I/native   ]
+I/prism.cc:77 loading prism file: /sdcard/android/rime/build/flypy.prism.bin
+
+
+[ 07-12 16:16:27.865 29858:30102 I/native   ]
+I/prism.cc:107 found double array image of size 134400.
+
+
+[ 07-12 16:16:27.866 29858:30102 I/native   ]
+I/dict_compiler.cc:109 /sdcard/android/rime/flypy.dict.yaml[0 file(s)] (1957940206)
+
+
+[ 07-12 16:16:27.866 29858:30102 I/native   ]
+I/dict_compiler.cc:111 /sdcard/android/rime/build/flypy.schema.yaml (2382267957)
+
+
+[ 07-12 16:16:27.866 29858:30102 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /sdcard/android/rime/build/flypy.reverse.bin
+
+
+[ 07-12 16:16:27.866 29858:30102 I/native   ]
+I/deployment_tasks.cc:376 dictionary 'flypy' is ready.
+
+
+[ 07-12 16:16:27.867 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/flypy.schema.yaml'.
+
+
+[ 07-12 16:16:27.869 29858:30102 I/native   ]
+I/deployment_tasks.cc:241 finished updating schemas: 2 success, 0 failure.
+
+
+[ 07-12 16:16:27.869 29858:30102 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/user.yaml'.
+
+
+[ 07-12 16:16:27.870 29858:30102 I/native   ]
+I/config_data.cc:199 write: var/last_build_time
+
+
+[ 07-12 16:16:27.870 29858:30102 I/native   ]
+I/config_data.cc:85 saving config file '/sdcard/android/rime/user.yaml'.
+
+
+[ 07-12 16:16:27.870 29858:30102 I/native   ]
+I/deployment_tasks.cc:591 clean up trash.
+
+
+[ 07-12 16:16:27.873 29858:30102 I/native   ]
+I/deployer.cc:95 3 tasks ran: 3 success, 0 failure.
+
+
+[ 07-12 16:16:27.874 29858:29906 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/default.yaml'.
+
+
+[ 07-12 16:16:27.875 29858:29906 I/native   ]
+I/engine.cc:71 starting engine.
+
+
+[ 07-12 16:16:27.875 29858:29906 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/user.yaml'.
+
+
+[ 07-12 16:16:27.875 29858:29906 I/native   ]
+I/engine.cc:126 updated option: full_shape
+
+
+[ 07-12 16:16:27.875 29858:29906 I/native   ]
+I/engine.cc:126 updated option: simplification
+
+
+[ 07-12 16:16:27.876 29858:29906 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/clover.schema.yaml'.
+
+
+[ 07-12 16:16:27.886 29858:29906 I/native   ]
+I/engine.cc:126 updated option: _auto_commit
+
+
+[ 07-12 16:16:27.886 29858:29906 I/native   ]
+I/dictionary.cc:261 loading dictionary 'clover'.
+
+
+[ 07-12 16:16:27.886 29858:29906 I/native   ]
+I/table.cc:299 loading table file: /sdcard/android/rime/build/clover.table.bin
+
+
+[ 07-12 16:16:27.886 29858:29906 I/native   ]
+I/prism.cc:77 loading prism file: /sdcard/android/rime/build/clover.prism.bin
+
+
+[ 07-12 16:16:27.887 29858:29906 I/native   ]
+I/prism.cc:107 found double array image of size 2304.
+
+
+[ 07-12 16:16:27.970 29858:29906 I/native   ]
+I/engine.cc:126 updated option: zh_simp_s2t
+
+
+[ 07-12 16:16:27.970 29858:29906 I/native   ]
+I/engine.cc:126 updated option: emoji_suggestion
+
+
+[ 07-12 16:16:27.970 29858:29906 I/native   ]
+I/engine.cc:126 updated option: symbol_support
+
+
+[ 07-12 16:16:27.970 29858:29906 I/native   ]
+I/engine.cc:126 updated option: ascii_punct
+
+
+[ 07-12 16:16:27.970 29858:29906 I/native   ]
+I/engine.cc:126 updated option: full_shape
+
+
+[ 07-12 16:16:27.970 29858:29906 I/native   ]
+I/engine.cc:126 updated option: ascii_mode
+
+
+[ 07-12 16:16:27.971 29858:29906 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/flypy.schema.yaml'.
+
+
+[ 07-12 16:16:27.977 29858:29906 I/native   ]
+I/config_data.cc:199 write: var/option/simplification
+
+
+[ 07-12 16:16:27.977 29858:29906 I/native   ]
+I/engine.cc:126 updated option: simplification
+
+
+[ 07-12 16:16:27.977 29858:29906 I/Rime     ]
+message: [option] simplification
+
+[ 07-12 16:16:27.978 29858:29906 W/rime     ]
+getContexts: 40729
+
+[ 07-12 16:16:27.978 29858:29906 W/rime     ]
+getStatus: 43229
+
+[ 07-12 16:16:27.978 29858:29906 W/rime     ]
+full_check: 
+
+[ 07-12 16:16:27.978 29858:29906 I/Pref     ]
+Deploy: end
+

@@ -1,0 +1,216 @@
+config_version: "1.2.1"
+name: iOS白色主题
+author: ahao
+author_QQ: 1993584108
+
+size: 
+# 高度
+  AJG: &AJG 56 #按键高度
+  JJG: &JJG 56 #九键布局按键高度
+  EJG: &EJG 74.6 #编辑布局按键高度
+  CJG: &CJG 74.6 #菜单按键高度
+# 微调
+  AJH: &AJH 8.8 #行距（深色主题10，浅色主题8.8）
+  AJL: &AJL 6 #列距
+  AJY: &AJY 15 #圆角
+  JJH: &JJH 6.5 #九键行距（深色主题9，浅色主题6.5）
+  JJL: &JJL 7 #九键列距
+  JJY: &JJY 15 #九键圆角
+  EJH: &EJH 7 #编辑行距（深色主题10，浅色主题7）
+  EJL: &EJL 8 #编辑列距
+  EJY: &EJY 15 #编辑圆角
+  CJH: &CJH 10 #菜单行距
+  CJL: &CJL 8 #菜单列距
+  CJY: &CJY 0 #菜单圆角
+
+style:
+  __include: iOS.trime:/style
+  shadow_radius: 0.1 #按键阴影半径
+  layout:
+    __include: iOS.trime:/style/layout
+    elevation: 0 #阴影
+    spacing: 1 #悬浮窗偏移量
+
+android_keys:
+  __include: iOS.trime:/android_keys
+
+preset_keys:
+  __include: iOS.trime:/preset_keys
+
+fallback_colors:
+  __include: iOS.trime:/fallback_colors
+  # 菜单
+  CDT: cdt #菜单文字
+
+colors:
+  # 白色配色
+  BBAI1: &纯白 0xffffff #*按键背景&功能键高亮(*为已使用图片代替)
+  BBAI2: &白2 0xf1f2f5 #符号键盘下排按键选中背景
+  BBAI3: &白3 0xd6d7db #键盘背景色
+  BHUI1: &灰 0xacb0bb #*按键高亮色(*为已使用图片代替)
+  BHEI1: &纯黑 0x000000 #纯黑色
+  BHEI2: &黑2 0x00000000 #隐藏色
+  BHEI3: &黑3 0x3d3d3d #未选中时文字颜色
+  BHEI4: &黑4 0x333333 #菜单文字颜色
+  BLAN1: &蓝 0x007afc #锁定键蓝色
+  # 图片
+  KEY: &KEY key.9.png #按键背景&功能键高亮背景
+  KEYH: &KEYH keyh.9.png #按键高亮背景&功能按键背景
+  KGL: &KGL kgl.9.png #空格蓝色背景
+  CDBJT: &CDBJT iOSCDB.png #菜单背景图
+  #SXX: &SXX sxx.9.png #首选项背景
+
+preset_color_schemes:
+  default:
+    author: "ahao <1993584108@qq.com>"
+    name: iOS白色(黑色回车)
+    #键盘
+    keyboard_back_color: *白3 #键盘背景
+    #悬浮窗相关
+    border_color: *白3 #悬浮边框
+    text_back_color: *白3 #编码区背景（也是悬浮窗背景）
+    label_color: *纯黑 #悬浮窗候选项序号
+    text_color: *蓝 #编码文本
+    hilited_text_color: *纯黑 #高亮编码文本(^左侧)
+    hilited_back_color: *白3 #高亮编码背景
+    #候选相关
+    back_color: *白3 #候选栏背景
+    hilited_candidate_back_color: *白3 #高亮候选项背景
+    #hilited_candidate_back_color: *SXX #高亮候选项背景
+    candidate_separator_color: *白3 #候选项分割处背景
+    candidate_text_color: *纯黑 #候选文本
+    hilited_candidate_text_color: *纯黑 #高亮候选文本
+    comment_text_color: *纯黑 #候选项注释
+    hilited_comment_text_color: *纯黑 #高亮候选项注释
+    #普通按键相关
+    key_back_color: *KEY #按键背景
+    hilited_key_back_color: *KEYH #高亮按键背景
+    key_text_color: *纯黑 #按键文本
+    hilited_key_text_color: *纯黑 #高亮按键文本
+    key_symbol_color: *黑3 #按键上标
+    hilited_key_symbol_color: *黑3 #高亮按键上标
+    preview_text_color: *纯黑 #按键提示文本
+    preview_back_color: *黑2 #按键提示背景
+    shadow_color: *纯黑 #按键文字阴影
+    key_border_color: *纯白 #按键边框
+    #功能按键相关
+    off_key_back_color: *KEYH #功能键背景
+    hilited_off_key_back_color: *KEY #功能键高亮背景
+    off_key_text_color: *纯黑 #功能键文本
+    hilited_off_key_text_color: *纯黑 #功能键高亮文本
+    on_key_back_color: *KGL #shift键锁定时背景
+    hilited_on_key_back_color: *KEY #shift键高亮背景（按下时）
+    on_key_text_color: *纯白 #shift键锁定时文本
+    hilited_on_key_text_color: *纯黑 #shift键高亮文本（按下时）
+    #自定义
+    hcb: *KEYH #回车背景
+    hct: *纯黑 #回车文本
+    hchb: *KEY #回车高亮背景
+    hcht: *纯黑 #回车高亮文本
+    hcs: *纯黑 #回车上标文本
+    hchs: *纯黑 #回车高亮上标文本
+    ycs: *黑2 #隐藏色
+    fhxzwt: *黑3 #未选中文字
+    fhxz: *白2 #符号键盘下面按键选中
+    fhzxhb: *纯白 #符号键盘下键高亮背景
+    bks: *纯白 #边框色
+    cdt: *黑4 #菜单文字
+    #图片背景
+    cdbjt: *CDBJT
+  iOSBL: #B白色主题，L蓝色空格
+    __include: /preset_color_schemes/default
+    name: iOS白色(蓝色回车)
+    hcb: *KGL #回车背景
+    hct: *纯白 #回车文本
+    hcs: *纯白 #回车上标文本
+
+preset_keyboards:
+  __include: iOS.trime:/preset_keyboards
+  # 26键
+  default:
+    height: *AJG
+    horizontal_gap: *AJL
+    vertical_gap: *AJH
+    round_corner: *AJY
+  letter:
+    __include: /preset_keyboards/default
+  letter_jg:
+    __include: /preset_keyboards/default
+
+  # 九宫
+  jiugong:
+    height: *JJG
+    horizontal_gap: *JJL
+    vertical_gap: *JJH
+    round_corner: *JJY
+  luna_jiugong:
+    __include: /preset_keyboards/jiugong
+  jiugong_fh:
+    __include: /preset_keyboards/jiugong
+
+  # 编辑
+  edit:
+    height: *EJG
+    horizontal_gap: *EJL
+    vertical_gap: *EJH
+    round_corner: *EJY
+  # 菜单
+  menu:
+    __include: iOS.trime:/preset_keyboards/menu
+    height: *CJG
+    horizontal_gap: *CJL
+    vertical_gap: *CJH
+    round_corner: *CJY
+    __patch:
+      "keys/@2/key_text_color": CDT
+      "keys/@3/key_text_color": CDT
+      "keys/@4/key_text_color": CDT
+      "keys/@5/key_text_color": CDT
+      "keys/@9/key_text_color": CDT
+      "keys/@10/key_text_color": CDT
+      "keys/@11/key_text_color": CDT
+      "keys/@12/key_text_color": CDT
+      "keys/@18/key_text_color": CDT
+
+  # 九键数字
+  number:
+    height: *JJG
+    horizontal_gap: *JJL
+    vertical_gap: *JJH
+    round_corner: *JJY
+  number_jg:
+    __include: /preset_keyboards/number
+
+  # 26键数字
+  number_c:
+    height: *AJG
+    horizontal_gap: *AJL
+    vertical_gap: *AJH
+    round_corner: *AJY
+  number_e:
+    __include: /preset_keyboards/number_c
+  number_e_jg:
+    __include: /preset_keyboards/number_c
+
+  # 符号
+  symbols_cn:
+    height: *AJG
+    horizontal_gap: *AJL
+    vertical_gap: *AJH
+    round_corner: *AJY
+  symbols_en:
+    __include: /preset_keyboards/symbols_cn
+  symbols_kh:
+    __include: /preset_keyboards/symbols_cn
+  symbols_jq:
+    __include: /preset_keyboards/symbols_cn
+  symbols_sx:
+    __include: /preset_keyboards/symbols_cn
+  symbols_ts:
+    __include: /preset_keyboards/symbols_cn
+  symbols_qg:
+    __include: /preset_keyboards/symbols_cn
+  symbols_sxh:
+    __include: /preset_keyboards/symbols_cn
+  symbols_wxh:
+    __include: /preset_keyboards/symbols_cn

@@ -1,0 +1,7 @@
+2024/05/04-03:07:10.737000 16536 Recovering log #163
+2024/05/04-03:07:10.746000 16536 Delete type=0 #163
+2024/05/04-03:07:10.746000 16536 Delete type=2 #164
+2024/05/04-03:07:10.746000 16536 Delete type=3 #162
+2024/05/04-03:07:10.747000 4292 Compacting 6@0 + 1@1 files
+2024/05/04-03:07:10.762000 4292 compacted to: files[ 6 1 0 0 0 0 0 ]
+2024/05/04-03:07:10.762000 4292 Compaction error: Corruption: corrupted compressed block contents

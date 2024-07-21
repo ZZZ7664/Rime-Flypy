@@ -1,0 +1,47 @@
+[
+    {
+        "name": "YAML语法检测",
+        "time": 1715953772480,
+        "list": [
+            "tools\/",
+            "tools\/YAML语法检测\/",
+            "tools\/YAML语法检测\/init.lua",
+            "tools\/YAML语法检测\/main.lua"
+        ]
+    },
+    {
+        "name": "拼运检查",
+        "time": 1715953762178,
+        "list": [
+            "tools\/",
+            "tools\/拼运检查\/",
+            "tools\/拼运检查\/main.lua",
+            "tools\/拼运检查\/init.lua",
+            "tools\/拼运检查\/check.lua"
+        ]
+    },
+    {
+        "name": "重码分析",
+        "time": 1715953758730,
+        "list": [
+            "tools\/",
+            "tools\/重码分析\/",
+            "tools\/重码分析\/main.lua",
+            "tools\/重码分析\/init.lua",
+            "tools\/重码分析\/check.lua"
+        ]
+    },
+    {
+        "name": "输入统计",
+        "time": 1715953755962,
+        "list": [
+            "tools\/",
+            "tools\/输入统计\/",
+            "tools\/输入统计\/layout.aly",
+            "tools\/输入统计\/main.lua",
+            "tools\/输入统计\/init.lua",
+            "tools\/输入统计\/keyboard.aly",
+            "tools\/输入统计\/showkey.lua"
+        ]
+    }
+]

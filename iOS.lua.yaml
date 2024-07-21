@@ -1,0 +1,8 @@
+preset_keys:
+#更改切换方式preset_keys
+  ThemeSwitch: {label: '循环', send: function, command: '更改切换方式.lua', option: "	"}
+#方案切换preset_keys
+  SchemeSwitch0: {label: '🍀️四叶草简体拼音', send: function, command: '方案切换.lua', option: 0}
+  SchemeSwitchReset0: {label: '🍀️四叶草简体拼音', text: '{SchemeSwitch0}{ResetAutoScript}'}
+  SchemeSwitch1: {label: '小鹤音形', send: function, command: '方案切换.lua', option: 1}
+  SchemeSwitchReset1: {label: '小鹤音形', text: '{SchemeSwitch1}{ResetAutoScript}'}
